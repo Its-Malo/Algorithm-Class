@@ -17,7 +17,4 @@ for x in range(largeur - recadrage*2):
         if(x > recadrage and y > recadrage):
             new_pixels[x,y] = pixel
 
-#new_pixels[0,0] = pixels[1,1]
-#new_pixels[x,y] = pixel[x + recadrage,y + recadrage]
-
 new_image.save("new.jpg")
